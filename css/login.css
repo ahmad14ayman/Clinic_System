@@ -1,0 +1,88 @@
+/* ======================Variables=================== */
+:root {
+    --main-color: #00abb2;
+    --red-color: #ea4235;
+    --blue-color: #1da1f3;
+    --blue-face-color: rgb(59, 89, 153);
+}
+
+/* ======================Variables=================== */
+
+.login-page {
+    height: 100vh;
+    padding: 30px;
+    background-image: url(/images/hero-bg.png);
+    background-size: auto;
+    background-color: #f1f4f9;
+}
+
+.login-page .image {
+    flex-basis: 50%;
+}
+
+.login-page .image img {
+    width: 500px
+}
+
+.login-page .log-form {
+    text-align: center;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-page .log-form form {
+    align-items: center;
+    width: 100%;
+}
+
+.login-page .log-form form>* {
+    width: 80%;
+}
+.login-page .log-form form> .radios {
+    user-select: none;
+}
+.login-page .log-form form> .radios label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.login-page .log-form form :where(input[type="text"], input[type="password"], button) {
+    border: 1px solid #eee;
+    border-radius: 7px;
+    font-size: 20px;
+}
+.login-button{
+    cursor: pointer;
+}
+ul li{
+    margin-top: 10px;
+}
+
+ul li a {
+    display: block;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.signup{
+    text-decoration: underline solid var(--main-color);
+    color: var(--main-color);
+}
+
+/* =================== */
+@media (max-width:991px){
+    .login-page .image {
+        display: none;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .login-page .log-form form>* {
+        width: 55%;
+    }
+}

@@ -1,0 +1,66 @@
+<!-- Login & Sign up Page  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocLab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="images/favicon.svg">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/frameWork.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <div class="login-page d-flex">
+        <div class="image center-flex">
+            <img src="images/about-banner.png" alt="">
+        </div>
+        <div class="log-form">
+            <img src="images/icon-4.png" alt="">
+            <h2 class="m-0">Sign in</h2>
+            <form class="col-flex">
+                <input class="p-15 mt-20" type="text" placeholder="Username" name="username" autocomplete="off">
+                <input class="p-15 mt-20" type="password" placeholder="Password" name="password">
+                <div class="radios between-flex mt-20">
+                    <label>
+                        <input type="radio" name="who" id="adm" value="admin">
+                        admin
+                    </label>
+                    <label>
+                        <input type="radio" name="who" id="doc" value="Doctor" checked>
+                        Doctor
+                    </label>
+                    <label>
+                        <input type="radio" name="who" id="pat" value="patient" checked>
+                        patient
+                    </label>
+                </div>
+                <span class=" login-button rad-7 p-15 mt-20 bg-bu-blue c-white f-bold">Login</span>
+                <p class="mt-10 c-p">-Or-</p>
+                <ul>
+                    <li><a href="#" class="rad-7 bg-face c-white"><i class="me-10 fa-brands fa-facebook-f"></i>Login
+                            With facebook</a></li>
+                    <li><a href="#" class="rad-7 bg-twitt c-white"><i class="me-10 fa-brands fa-twitter"></i>Login With
+                            twitter</a></li>
+                    <li><a href="#" class="rad-7 bg-google c-white"><i class=" me-10 fa-brands fa-google"></i>Login With
+                            google</a></li>
+                </ul>
+                <div class="footer-links between-flex">
+                    <span class="fs-14 c-p mt-20">Are You New ? <a class="signup" href="signup.html">Create AnAccount</a></span>
+                    <span class="fs-14 c-p mt-20"><a class="signup" href="#">Login as A guset</a></span>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="js/login.js"></script>
+</body>
+
+</html>

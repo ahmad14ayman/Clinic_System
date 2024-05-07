@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Fourth Template For Me In Front End" />
+  <title>Setting</title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/frameWork.css">
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="stylesheet" href="css/settings.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="../images/favicon.svg">
+</head>
+
+<body>
+  <div class="page d-flex">
+    <!-- Start SideBar  -->
+    <div class="sidebar bg-white p-20 p-relative b-shad">
+      <h3 class="p-relative mt-0 txt-c center-flex"> <img class="fs-14" src="../images/icon-3.png" alt="">DocLab</h3>
+      <h3 class="p-relative mt-0 txt-c">Doc</h3>
+      <ul>
+        <li>
+          <a class="active d-flex align-center fs-14 c-black rad-6 p-10 mb-5" href="index.html">
+            <i class="fa-solid fa-gear c-blue-alter"></i>
+            <span class="hide-mobile ms-15">Settings</span>
+          </a>
+        </li>
+        <li>
+          <a class=" d-flex align-center fs-14 c-black rad-6 p-10 mb-5" href="doctors.html">
+            <i class="fa-solid fa-stethoscope c-blue-alter"></i>
+            <span class="hide-mobile ms-15">Doctors</span>
+          </a>
+        </li>
+        <li>
+          <a class=" d-flex align-center fs-14 c-black rad-6 p-10 mb-5" href="patient.html">
+            <i class="fa-solid fa-hospital-user c-blue-alter"></i>
+            <span class="hide-mobile ms-15">Patients</span>
+          </a>
+        </li>
+        <li>
+          <a class=" d-flex align-center fs-14 c-black rad-6 p-10 mb-5" href="appointment.html">
+            <i class="fa-solid fa-calendar-check c-blue-alter"></i>
+            <span class="hide-mobile ms-15">Appointments</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- End SideBar -->
+    <!-- Start Content -->
+    <div class="content w-full">
+      <div class="content-text p-20">
+        <h1 class="p-relative head-page settings-head c-blue-alter">Settings</h1>
+        <div class="setting-page">
+          <div class="setting-container ">
+            <div class="general-info rad-10 p-15 bg-white mb-20"> <!--General Info-->
+              <h2 class="m-0">New Appointment</h2>
+              <p class="c-grey fs-14">add a new Appointment</p>
+              <form>
+                <div class="d-flex gap-20 mobile-flex-col">
+                  <div class="f-basis-50">
+                    <label class="c-grey" for="f-name">Doctor Name</label><br>
+                    <input class="rad-6" type="text" placeholder="Ahmed Ayman" id="f-name"><br>
+                  </div>
+                  <div class="f-basis-50">
+                    <label class="c-grey" for="special">Specialization</label><br>
+                    <input class="rad-6" type="text" placeholder="Surgery" id="special"><br>
+                  </div>
+                </div>
+                <div class="d-flex gap-20 mobile-flex-col">
+                  <div class="f-basis-50">
+                    <label class="c-grey">Date</label><br>
+                    <div class="between-flex gap-20">
+                      <input class="rad-6" type="text" placeholder="From">
+                      <input class="rad-6" type="text" placeholder="To">
+                      <select class="rad-6">
+                        <option value="Sur">Sur</option>
+                        <option value="Sun">Sun</option>
+                        <option value="Mon">Mon</option>
+                        <option value="Tus">Tus</option>
+                        <option value="Wed">Wed</option>
+                        <option value="Thu">Thu</option>
+                        <option value="Fri">Fri</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="f-basis-50">
+                    <label class="c-grey" for="exp">Price</label><br>
+                    <input class="rad-6" type="number" placeholder="20 $" id="exp"><br>
+                  </div>
+                </div>
+                <button class="form-button bg-blue-alter c-white rad-10" type="button">Add</button>
+              </form>
+            </div> <!-- /General Info-->
+            <div class="general-info rad-10 p-15 bg-white"> <!--General Info-->
+              <h2 class="m-0">New Doctor</h2>
+              <p class="c-grey fs-14">add a new Doctor</p>
+              <form>
+                <div class="d-flex gap-20 mobile-flex-col">
+                  <div class="f-basis-50">
+                    <label class="c-grey" for="f-name">Doctor Name</label><br>
+                    <input class="rad-6" type="text" placeholder="Ahmed Ayman" id="f-name"><br>
+                  </div>
+                  <div class="f-basis-50">
+                    <label class="c-grey" for="special">Specialization</label><br>
+                    <input class="rad-6" type="text" placeholder="Surgery" id="special"><br>
+                  </div>
+                </div>
+                <div class="d-flex gap-20 mobile-flex-col">
+                  <div class="f-basis-50">
+                    <label class="c-grey" for="univ">University</label><br>
+                    <input class="rad-6" type="text" placeholder="Menoufia.." id="univ"><br>
+                  </div>
+                  <div class="f-basis-50">
+                    <label class="c-grey" for="exp">Experiance</label><br>
+                    <input class="rad-6" type="number" placeholder="3" id="exp"><br>
+                  </div>
+                </div>
+                <button class="form-button bg-blue-alter c-white rad-10" type="button">Add</button>
+              </form>
+            </div> <!-- /General Info-->
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Content -->
+  </div>
+  <script src="JS/setting.js"></script>
+</body>
+
+</html>

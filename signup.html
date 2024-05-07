@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocLab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/frameWork.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="shortcut icon" href="images/favicon.svg">
+</head>
+
+<body>
+    <div class="signup-page center-flex ">
+        <div class="signup-form">
+            <img src="images/icon-7.png" alt="">
+            <h2 class="m-0">Sign up</h2>
+            <form class="col-flex">
+                <div class="name between-flex mt-20">
+                    <input class="p-15 me-20 rad-7 border-1" type="text" placeholder="first name" name="firstName">
+                    <input class="p-15 rad-7 border-1" type="text" placeholder="last name" name="lastName">
+                </div>
+                <input class="p-15 mt-20 rad-7 border-1" type="email" placeholder="Email" name="id">
+                <input class="p-15 mt-20 rad-7 border-1" type="password" placeholder="Password" name="password">
+                <div class="between-flex mobile-flex gap-10">
+                    <input class="p-15 mt-20 rad-7 border-1 flex-1" type="text" placeholder="City" name="text">
+                    <input class="p-15 mt-20 rad-7 border-1" type="text" placeholder="Date Of Birth"
+                        onfocus="this.type ='date'">
+                </div>
+                <div class="mt-20 between-flex gap-10">
+                    <select class="p-15 rad-7 border-1 bg-white" name="count-id">
+                        <option value="+20">+20</option>
+                        <option value="+10">+10</option>
+                        <option value="+2">+2</option>
+                        <option value="+21">+21</option>
+                        <option value="+78">+78</option>
+                        <option value="+85">+85</option>
+                        <option value="+41">+41</option>
+                        <option value="+65">+65</option>
+                    </select>
+                    <input class="p-15 rad-7 flex-1 border-1" type="text" placeholder="phone number" name="phone">
+                </div>
+                <div class="Gen center-flex gap-10 mt-20 mobile-flex">
+                    <p class="gender c-p fs-14 f-bold">What Is Your Gender ?</p>
+                    <div class="radios ">
+                        <label class="me-20">
+                            <input type="radio" name="gender" value="Male" checked>
+                            Male
+                        </label>
+                        <label>
+                            <input type="radio" name="gender" value="Female">
+                            Female
+                        </label>
+                    </div>
+                </div>
+                <span class=" signup-button rad-7 border-1 p-15 mt-20 bg-bu-blue c-white f-bold">Register</span>
+                <span class="fs-14 c-p mt-20"><a class="signup" href="index.html">Have An Account</a></span>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+/* ======================Variables=================== */
+:root {
+    --main-color: #00abb2;
+    --red-color: #ea4235;
+    --blue-color: #1da1f3;
+    --blue-face-color: rgb(59, 89, 153);
+}
+
+/* ======================Variables=================== */
+
+.signup-page {
+    height: 100vh;
+    padding: 30px;
+    background-image: url(/images/hero-bg.png);
+    background-size: auto;
+    background-color: #f1f4f9;
+}
+
+
+.signup-form {
+    text-align: center;
+    flex-basis: 40%;
+    max-width: 90%;
+}
+
+
+
+p.gender{
+    text-align: left;
+}
+
+.radios label{
+    cursor: pointer;
+}
+
+.signup-button{
+    cursor: pointer;
+}
+
+.signup{
+    text-decoration: underline solid var(--main-color);
+    color: var(--main-color);
+}
+
+@media (max-width:767px){
+    .name{
+        flex-direction: column;
+    }
+    .name  input:first-of-type{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}

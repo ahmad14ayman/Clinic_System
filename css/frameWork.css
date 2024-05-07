@@ -1,0 +1,354 @@
+/* ======================Variables=================== */
+:root {
+    --main-color: #00abb2;
+    --red-color: #ea4235;
+    --blue-color: #1da1f3;
+    --blue-face-color: rgb(59, 89, 153);
+    --button-blue-color: #007aff;
+}
+
+/* ======================Variables=================== */
+
+/* Display */
+.d-block {
+    display: block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.col-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.between-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+/* Display */
+
+/* margin */
+.m-0 {
+    margin: 0;
+}
+
+.m-5 {
+    margin: 5px;
+}
+
+.m-10 {
+    margin: 10px;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+/* margin-right */
+.me-0 {
+    margin-right: 0;
+}
+
+.me-5 {
+    margin-right: 5px;
+}
+
+.me-10 {
+    margin-right: 10px;
+}
+
+.me-15 {
+    margin-right: 15px;
+}
+
+.me-20 {
+    margin-right: 20px;
+}
+
+/* margin-bottom */
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+/* margin-left */
+.ms-0 {
+    margin-left: 0;
+}
+
+.ms-5 {
+    margin-left: 5px;
+}
+
+.ms-10 {
+    margin-left: 10px;
+}
+
+.ms-15 {
+    margin-left: 15px;
+}
+
+.ms-20 {
+    margin-left: 20px;
+}
+
+/* margin */
+
+/* padding */
+.p-0 {
+    padding: 0;
+}
+
+.pt-0 {
+    padding-top: 0;
+}
+
+.pe-0 {
+    padding-right: 0;
+}
+
+.pb-0 {
+    padding-bottom: 0;
+}
+
+.ps-0 {
+    padding-left: 0;
+}
+
+/* 5px */
+.p-5 {
+    padding: 5px;
+}
+
+.pt-5 {
+    padding-top: 5px;
+}
+
+.pe-5 {
+    padding-right: 5px;
+}
+
+.pb-5 {
+    padding-bottom: 5px;
+}
+
+.ps-5 {
+    padding-left: 5px;
+}
+
+/* 10px */
+.p-10 {
+    padding: 10px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pe-10 {
+    padding-right: 10px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.ps-10 {
+    padding-left: 10px;
+}
+
+/* 10px */
+.p-15 {
+    padding: 15px;
+}
+
+.pt-15 {
+    padding-top: 15px;
+}
+
+.pe-15 {
+    padding-right: 15px;
+}
+
+.pb-15 {
+    padding-bottom: 15px;
+}
+
+.ps-15 {
+    padding-left: 15px;
+}
+
+/* 20px */
+.p-20 {
+    padding: 20px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pe-20 {
+    padding-right: 20px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.ps-20 {
+    padding-left: 20px;
+}
+
+/* padding */
+
+/* color */
+.c-white {
+    color: white;
+}
+
+.c-main {
+    color: var(--main-color);
+}
+
+.c-black {
+    color: black;
+}
+
+.c-p {
+    color: #777;
+}
+
+/* color */
+
+
+/* background-color */
+.bg-white {
+    background-color: white;
+}
+
+.bg-main {
+    background-color: var(--main-color);
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-face {
+    background-color: var(--blue-face-color);
+}
+
+.bg-twitt {
+    background-color: var(--blue-color);
+}
+
+.bg-google {
+    background-color: var(--red-color);
+}
+
+.bg-bu-blue {
+    background-color: var(--button-blue-color);
+}
+
+/* background-color */
+
+
+/* border-radius */
+.avatar {
+    border-radius: 50%;
+}
+
+.rad-7 {
+    border-radius: 7px;
+}
+
+.rad-10 {
+    border-radius: 10px;
+}
+
+.border-1 {
+    border: 1px solid #ccc;
+}
+
+/* border-radius */
+
+/* Buttons */
+.button {
+    display: block;
+    width: fit-content;
+    padding: 5px 15px;
+    border-radius: 5px;
+    user-select: none;
+    cursor: pointer;
+}
+
+/* Buttons */
+
+/* Font */
+.fs-14 {
+    font-size: 14px;
+}
+
+.f-bold {
+    font-weight: bold;
+}
+
+/* Font */
+
+@media (max-width:767px) {
+    .mobile-flex {
+        flex-direction: column;
+    }
+}

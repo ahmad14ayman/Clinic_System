@@ -1,0 +1,79 @@
+:root {
+    --blue-color: #0075ff;
+    --blue-alt-color: #00abb2;
+    --orange-color: #f59e0b;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --grey-color: #888;
+    --transition-duration: 0.4s;
+}
+
+.settings-head::after {
+    width: 40px !important;
+}
+
+.control textarea {
+    resize: none;
+    min-height: 150px;
+    border: 1px solid #ccc;
+}
+
+.control textarea::placeholder {
+    font-size: 14px;
+}
+
+/* General Info */
+
+form label {
+    font-size: 15px;
+    display: inline-block;
+    margin-top: 7px;
+    font-weight: bold;
+}
+
+form input {
+    outline: none;
+    border: 1px #ccc solid;
+    padding: 8px 15px;
+    margin: 10px 0;
+    width: 100%;
+}
+form select  {
+    outline: none;
+    border: 1px #ccc solid;
+    padding: 5px 10px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+form input::placeholder {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+form input[type="email"] {
+    cursor: no-drop;
+    background-color: rgb(232, 240, 253);
+    width: calc(100% - 100px);
+}
+
+form button {
+    border: none;
+    width: fit-content;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 50px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+
+@media (max-width:767px) {
+    .mobile-flex-col{
+        flex-direction: column;
+        gap: 0;
+    }
+}
